@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-image: url('https://images.ctfassets.net/x7j9qwvpvr5s/1WjibU9sArSy4AYOiThlmO/c1a36461f5523d63a868882b461b653c/WorldSBK-Aragon-31-Maggio-2026-Hero-1600x1000.jpg?fm=webp&q=90');
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+
+}
+.navbar{
+  background-color: white;
+  color: black;
+  padding: 35px;
+ margin-left: 75px;
+ margin-right: 75px;
+ margin-top: 10px;
+ box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ text-align: center;
+ align-items: center;
+ height: 39px;
+ position: fixed;
+ width: 1300px;
+}
+.navbar-ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+li:hover{
+    text-decoration: underline;
+}
+.head{
+    color: white;
+    margin-top: 205px;
+    margin-left: 95px;
+    font-family:  'ducati-extended', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 55px;
+}
+.pera{
+    color: rgb(226, 224, 224);
+     margin-left: 95px;
+    font-family:  'ducati-extended', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 25px;
+    font-weight: bold;
+    margin-left: 1205px;
+    margin-top: 85px;
+    height: 65px;
+}
+.backa{
+    background-color: white;
+    height: 450vh;
+}
+.range{
+    text-align: center;
+    color: white;
+    background-color: #CB1517;
+    border-color: black;
+    border-radius: 35px;
+    width: 130px;
+    padding: 15px;
+    margin-left: 45%;
+    margin-top: 95px;
+    border: 2px solid;
+    border-width: 5px;
+}
+.con{
+    color: rgb(173, 170, 170);
+    font-size: 18px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ccc; 
+  font-size: 35px;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 3px solid #d6d2d2; /* Adjust line color and thickness */
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.container{
+    background-color: white;
+    height: 195px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 55px;
+    padding: 45px;
+     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     display: flex;
+     border-left: #CB1517 solid;
+}
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.container p{
+    color: #737272;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.cona{
+    background-color: rgb(253, 252, 252);
+    height: 450px;
+    width: 400px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 55px;
+    margin-top: 35px;
+}
+.cona:hover{
+    padding: 2px;
+}
+.background{
+    background-image: url('https://ducatilifestyletokyo.jp/website/wp-content/uploads/2025/08/new.jpg');
+    height: 350px;
+    width: 510px;
+}
+.backgrounda{
+    background-image: url('https://images.ctfassets.net/x7j9qwvpvr5s/7vGn3shhtXAoyNssy9Xjvv/75b8c2ccdb270594ba8ed7079496e33e/Scrambler-Configurator-slider-menu-330x280.png');
+    background-size: cover;
+    height: 350px;
+    width: 510px;
+}
+.backgroundb{
+    background-image: url('https://ducati.com.sg/wp-content/uploads/2023/06/Shop-Ducati-prefooter-shortcuts-640x360-1.png');
+    background-size: cover;
+    height: 350px;
+    width: 510px;
+}
+.bike{
+    background-image: url('https://images.drivespark.com/img/2026/04/ducatimultistrada-1776340324.jpg');
+    background-size: cover;
+    height: 550px;
+    background-repeat: no-repeat;
+    padding: 95px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btna{
+    background-color: red;
+    color: white;
+    border-color: red;
+    padding: 25px;
+    font-weight: bold;
+    height: 65px;
+    width: 200px;
+    margin-top: 250px;
+}
+.bikea{
+    background-image: url('https://images.tractorjunction.com/small_Ducati_3_11zon_df13d7273c.webp');
+    background-size: cover;
+    height: 550px;
+    background-repeat: no-repeat;
+    padding: 95px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.end{
+    background-color: #0F0F0F;
+    height: 500px;
+    margin-top: 1950px;
+}
+.btnb{
+       background-image: linear-gradient(#D40000,#FC0000);
+    color: white;
+    border-color: red;
+    padding: 25px;
+    font-weight: bold;
+    height: 65px;
+    width: 200px;
+}
+.term p:hover{
+text-decoration: underline;
+}
+.hove:hover{
+    text-decoration: underline;
+}
